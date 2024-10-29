@@ -35,7 +35,7 @@ def init_ram():
 
 
 
-@pytest.mark.telemetry_files(source("mult/mult.vm"))
+@pytest.mark.telemetry_files(source("1-mult/mult.vm"))
 def test_mult_0():
     ram = init_ram()
     a = 0
